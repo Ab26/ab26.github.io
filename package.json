@@ -14,8 +14,10 @@
     "framer-motion": "^12.5.0",
     "gray-matter": "^4.0.3",
     "next": "15.2.3",
+    "node-cache": "^5.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "scholarly": "^1.1.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
