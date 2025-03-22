@@ -6,6 +6,10 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: '',
+  trailingSlash: true,
+  env: {
+    GOOGLE_SCHOLAR_ID: 'sXA1mOsAAAAJ',
+  },
 }
 
 export default nextConfig;

@@ -1,9 +1,10 @@
 import NodeCache from 'node-cache';
-import scholarly from 'scholarly';
+import { search } from 'scholarly';
 
 const cache = new NodeCache({ stdTTL: 86400 }); // Cache for 24 hours
 
 const AUTHOR_ID = 'sXA1mOsAAAAJ';
+const AUTHOR_QUERY = `author:${AUTHOR_ID}`;
 
 export async function getPublications() {
     const cacheKey = `publications-${AUTHOR_ID}`;
@@ -14,21 +15,15 @@ export async function getPublications() {
     }
 
     try {
-        const author = await scholarly.author(AUTHOR_ID);
-        const publications = await Promise.all(
-            author.publications.map(async (pub: any) => {
-                const details = await scholarly.publication(pub.id);
-                return {
-                    title: details.title,
-                    authors: details.authors,
-                    year: details.year,
-                    citations: details.citations,
-                    venue: details.venue,
-                    url: details.url,
-                    abstract: details.abstract,
-                };
-            })
-        );
+        const searchResults = await search(AUTHOR_QUERY);
+        const publications = searchResults.map((result: any) => ({
+            title: result.title,
+            authors: result.authors || [],
+            year: result.year,
+            citations: result.citedby || 0,
+            venue: result.journal || result.conference || '',
+            url: result.url || `https://scholar.google.com/citations?view_op=view_citation&citation_for_view=${result.citationId}`,
+        }));
 
         cache.set(cacheKey, publications);
         return publications;

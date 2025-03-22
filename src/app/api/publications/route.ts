@@ -1,3 +1,6 @@
+export const dynamic = 'force-dynamic';
+export const revalidate = 3600; // Revalidate every hour
+
 import { NextResponse } from 'next/server';
 import { getPublications } from '@/utils/scholar';
 
