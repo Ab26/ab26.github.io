@@ -88,7 +88,7 @@ export default function Home() {
             className="mb-8"
           >
             <Image
-              src="/profile.jpg"
+              src="/images/profile.jpg"
               alt="Abhishek Bhandari"
               width={200}
               height={200}
@@ -172,17 +172,25 @@ export default function Home() {
               <div className="flex gap-4">
                 <DocumentTextIcon className="h-6 w-6 text-blue-600 dark:text-blue-400 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold">Add your publications here</h3>
+                  <h3 className="font-semibold">Reversible data hiding using multi-layer perceptron based pixel prediction</h3>
                   <p className="text-gray-600 dark:text-gray-400 mt-2">
-                    Example: "Title of the paper", Conference/Journal Name, Year
+                    A. Bhandari, S. Sharma, R. Uyyala, R. Pal, M. Verma
+                  </p>
+                  <p className="text-gray-500 dark:text-gray-500 mt-1">
+                    Proceedings of the 11th International Conference on Advances in Information Technology, 2020
                   </p>
                   <div className="mt-2">
-                    <a href="#" className="text-sm text-blue-600 dark:text-blue-400 hover:underline">
-                      [PDF]
+                    <a 
+                      href="https://scholar.google.com/citations?user=sXA1mOsAAAAJ&hl=en" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-sm text-blue-600 dark:text-blue-400 hover:underline"
+                    >
+                      [Google Scholar]
                     </a>
-                    <a href="#" className="text-sm text-blue-600 dark:text-blue-400 hover:underline ml-4">
-                      [Code]
-                    </a>
+                    <span className="text-sm text-gray-500 dark:text-gray-400 ml-4">
+                      Citations: 14
+                    </span>
                   </div>
                 </div>
               </div>
