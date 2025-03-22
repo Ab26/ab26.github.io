@@ -309,7 +309,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://scholar.google.com"
+              href="https://scholar.google.com/citations?user=sXA1mOsAAAAJ&hl=en"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
