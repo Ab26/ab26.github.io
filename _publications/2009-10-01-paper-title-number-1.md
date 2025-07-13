@@ -2,9 +2,9 @@
 title: "Reversible data hiding using multi-layer perceptron based pixel prediction"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2020-07-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+date: 2020-07-01
 venue: 'IAIT 2020'
 slidesurl: ''
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3406601.3406616'
