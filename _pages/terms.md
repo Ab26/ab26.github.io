@@ -1,7 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-modified: 2016-06-06
+modified: 2025-07-26
 ---
 
 {% include base_path %}
@@ -9,9 +9,9 @@ modified: 2016-06-06
 
 ## Privacy Policy
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+The privacy of visitors to my academic website is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+First and foremost, I, Abhishek Bhandari, will never share your email address or any other personal information to anyone without your direct consent.
 
 ### Log Files
 

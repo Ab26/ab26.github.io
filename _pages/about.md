@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
-
 I am Abhishek Bhandari, currently pursuing a PhD in Computer Science & Engineering at Indian Institute of Technology Jodhpur. My research focuses on NLP & CV.
 
 ## Research Interests
 
+- Natural Language Processing
+- Computer Vision
 
 ## Education
 
@@ -25,14 +25,6 @@ I am Abhishek Bhandari, currently pursuing a PhD in Computer Science & Engineeri
   
 - **B.Tech. in Information Technology**  
   Government Engineering College Ajmer, 2016
-
-## Current Projects
-
-[Briefly describe your current research projects or work]
-
-## Publications
-
-[Highlight a few key publications or link to your publications page]
 
 ## Contact
 

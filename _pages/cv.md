@@ -15,14 +15,6 @@ Education
 * M.Tech. in Information Technology, University of Hyderabad, 2019
 * B.Tech. in Information Technology, Government Engineering College Ajmer, 2016
 
-Work experience
-======
-<!-- Add your work experience here -->
-
-Skills
-======
-<!-- Add your skills here -->
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
