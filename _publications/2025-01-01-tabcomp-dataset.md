@@ -6,7 +6,7 @@ permalink: /publication/2025-01-01-tabcomp-dataset
 excerpt: 'This paper introduces TabComp, a dataset for visual table reading comprehension.'
 date: 2025-01-01
 venue: 'Findings of the Association for Computational Linguistics: NAACL 2025'
-paperurl: '#'
+paperurl: 'https://aclanthology.org/2025.findings-naacl.320/'
 citation: 'S Gautam, A Bhandari, G Harit. (2025). &quot;TabComp: A Dataset for Visual Table Reading Comprehension.&quot; <i>Findings of the Association for Computational Linguistics: NAACL 2025</i>, 5773-5780.'
 ---
 

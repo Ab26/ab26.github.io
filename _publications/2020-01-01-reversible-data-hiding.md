@@ -6,7 +6,7 @@ permalink: /publication/2020-01-01-reversible-data-hiding
 excerpt: 'This paper presents a novel approach for reversible data hiding using multi-layer perceptron for pixel prediction.'
 date: 2020-01-01
 venue: 'Proceedings of the 11th International Conference on Advances in Information Technology'
-paperurl: 'https://dl.acm.org/doi/abs/10.1145/3406601.3406635'
+paperurl: 'https://dl.acm.org/doi/abs/10.1145/3406601.3406616'
 citation: 'A Bhandari, S Sharma, R Uyyala, R Pal, M Verma. (2020). &quot;Reversible data hiding using multi-layer perceptron based pixel prediction.&quot; <i>Proceedings of the 11th International Conference on Advances in Information Technology</i>.'
 ---
 
