@@ -10,8 +10,8 @@ abstract: >-
 cover:          /assets/images/covers/cover2.jpg
 authors:
   - S Gautam
-  - A Bhandari
+  - <strong>A Bhandari<strong>
   - G Harit
 links:
-  Paper: https://arxiv.org/abs/2501.12345
+  Paper: https://aclanthology.org/2025.findings-naacl.320.pdf
 ---
