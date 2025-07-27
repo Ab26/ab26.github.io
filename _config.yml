@@ -34,6 +34,7 @@ plugins:
 
 timezone: Asia/Kolkata
 
+# Force rebuild for logo display fix
 collections:
   - publications
   - news
