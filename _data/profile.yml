@@ -32,14 +32,17 @@ portrait_caption: >-
 
 education:
 - name: Indian Institute of Technology Jodhpur
+  logo: /assets/images/badges/IIT_logo.png
   position: >-
     Computer Science & Engineering <br/>
     Ph.D. Student
   date: 2022 - 2026 (expected)
 - name: University of Hyderabad
+  logo: /assets/images/badges/UoH_logo.png
   position: M.Tech. in Information Technology
   date: 2017 - 2019
 - name: Government Engineering College Ajmer
+  logo: /assets/images/badges/GEC_logo.png
   position: B.Tech. in Information Technology
   date: 2013 - 2016
 
