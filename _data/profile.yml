@@ -20,10 +20,10 @@ github: ab26
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am Abhishek Bhandari, currently pursuing a PhD in Computer Science & Engineering at Indian Institute of Technology Jodhpur. My research focuses on <strong>Natural Language Processing</strong> and <strong>Computer Vision</strong>.
+    I am currently pursuing a PhD in Computer Science & Engineering at Indian Institute of Technology Jodhpur. My research focuses on <strong>Natural Language Processing</strong> and <strong>Computer Vision</strong>.
   </p>
   <p>
-    My work involves developing innovative approaches for understanding and processing textual and visual data, with applications in areas such as reversible data hiding, table reading comprehension, and multimodal learning.
+    My work involves developing approaches for contextual text error correction for Indic Languages. 
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
@@ -36,7 +36,7 @@ education:
   position: >-
     Computer Science & Engineering <br/>
     Ph.D. Student
-  date: 2022 - 2026 (expected)
+  date: 2020 - 2026 (expected)
 - name: University of Hyderabad
   logo: /assets/images/badges/UoH_logo.png
   position: M.Tech. in Information Technology
@@ -44,7 +44,7 @@ education:
 - name: Government Engineering College Ajmer
   logo: /assets/images/badges/GEC_logo.png
   position: B.Tech. in Information Technology
-  date: 2013 - 2016
+  date: 2012 - 2016
 
 # experience:
 # - name: Peking University
@@ -52,10 +52,10 @@ education:
 #   position: Research Intern
 #   date: Sep. 2019 - Jul. 2021
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+#awards:
+#- name: Received MOe
+#  date: 2025
+#- name: Award Name 1 
+#  date: 2021
+#- name: A quick brown fox jumps over the lazy dog and runs away award
+#  date: 2021
