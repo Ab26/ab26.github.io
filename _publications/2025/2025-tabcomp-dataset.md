@@ -7,7 +7,7 @@ pub_date:       "2025"
 
 abstract: >-
   This paper introduces TabComp, a dataset for visual table reading comprehension. The dataset is designed to advance research in understanding and extracting information from tables in documents.
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/covers/Tabcomp.png
 authors:
   - S Gautam
   - <strong>A Bhandari</strong>
