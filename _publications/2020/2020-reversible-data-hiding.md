@@ -7,7 +7,7 @@ pub_date:       "2020"
 
 abstract: >-
   This paper presents a novel approach for reversible data hiding using multi-layer perceptron for pixel prediction. Reversible data hiding is a technique that allows the original cover media to be perfectly restored after the hidden data has been extracted.
-#cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/cover1.jpg
 authors:
   - <strong>A Bhandari</strong>
   - S Sharma
