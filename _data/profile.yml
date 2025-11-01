@@ -6,8 +6,6 @@ tagline: "Bridging Indic languages and computer vision through robust NLP"
 
 positions:
 - name: PhD Researcher in Computer Science & Engineering
-- name: Teaching Assistant · Data Science Foundations
-- name: Research Collaborator · Vision & Language Lab
 
 email: "bhandari.1@iitj.ac.in"
 cv_link: https://drive.google.com/file/d/1UrmFnA2Bw04X37Rmckh9UQNj1s_w_NIB/view?usp=sharing
@@ -38,14 +36,9 @@ short_bio: >-
   </p>
 
 highlights:
-  - Leading the IndicSpell project to improve contextual spell-checking for six major Indian languages.
-  - Co-authored 8+ peer-reviewed papers spanning ACL, LREC, and CVPR workshops.
-  - Mentoring graduate cohorts on responsible AI and dataset creation practices.
-
+  
 research_interests:
   - Contextual Text Correction
-  - Multimodal Representation Learning
-  - Responsible & Inclusive AI
   - Indic Language Processing
 
 portrait_url: /assets/images/photos/portrait.jpg
