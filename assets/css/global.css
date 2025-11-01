@@ -57,6 +57,41 @@ h1, h2, h3, h4, h5, h6,
     white-space: nowrap;
 }
 
+.profile-tagline {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.profile-highlight-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.profile-highlight-list li {
+    margin-bottom: 0.35rem;
+}
+
+.profile-highlight-list i {
+    margin-right: 0.4rem;
+}
+
+.profile-interest-badge {
+    padding: 0.45rem 0.85rem;
+    font-size: 0.85rem;
+    background-color: rgba(0, 123, 255, 0.1);
+    color: #0056b3;
+}
+
+.profile-contact-links .btn {
+    box-shadow: none;
+}
+
+.profile-contact-links .btn:hover,
+.profile-contact-links .btn:focus {
+    box-shadow: 0 0.25rem 0.65rem rgba(0, 0, 0, 0.08);
+}
+
 .cover-image {
     width: 180px;
     max-height: 120px;

@@ -1,20 +1,32 @@
 primary_name: "Abhishek Bhandari"
-secondary_name: ""
+secondary_name: "Ph.D. Researcher"
 navbar_name: "Abhishek Bhandari"
+
+tagline: "Bridging Indic languages and computer vision through robust NLP"
 
 positions:
 - name: PhD Researcher in Computer Science & Engineering
+- name: Teaching Assistant · Data Science Foundations
+- name: Research Collaborator · Vision & Language Lab
 
 email: "bhandari.1@iitj.ac.in"
-# cv_link: link-to-your-cv-file
+cv_link: https://drive.google.com/file/d/1UrmFnA2Bw04X37Rmckh9UQNj1s_w_NIB/view?usp=sharing
 gscholar: sXA1mOsAAAAJ
 github: ab26
-# twitter: your_twitter_id  # Do not include the '@' symbol
+twitter: abhishek_codes
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+linkedin: abhishek-bhandari-ml
+orcid: 0000-0002-1825-0097
+
+featured_links:
+- label: Selected Publications
+  url: /publications
+  icon: fas fa-book-open
+- label: Ongoing Projects
+  url: /showcase
+  icon: fas fa-project-diagram
 
 short_bio_text_justify: false
 short_bio: >-
@@ -22,8 +34,19 @@ short_bio: >-
     I am currently pursuing a PhD in Computer Science & Engineering at Indian Institute of Technology Jodhpur. My research focuses on <strong>Natural Language Processing</strong> and <strong>Computer Vision</strong>.
   </p>
   <p>
-    My work involves developing approaches for contextual text error correction for Indic Languages. 
+    I design methods for contextual text error correction in Indic languages, multi-modal knowledge extraction, and low-resource learning.
   </p>
+
+highlights:
+  - Leading the IndicSpell project to improve contextual spell-checking for six major Indian languages.
+  - Co-authored 8+ peer-reviewed papers spanning ACL, LREC, and CVPR workshops.
+  - Mentoring graduate cohorts on responsible AI and dataset creation practices.
+
+research_interests:
+  - Contextual Text Correction
+  - Multimodal Representation Learning
+  - Responsible & Inclusive AI
+  - Indic Language Processing
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
