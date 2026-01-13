@@ -3,7 +3,7 @@ title:          "TabComp: A Dataset for Visual Table Reading Comprehension"
 date:           2025-01-01 00:01:00 +0530
 selected:       true
 pub:            "Findings of the Association for Computational Linguistics: NAACL 2025"
-semantic_scholar_id: 758d84aa6e7750dd711987cbc17a8a661dc3afc7
+semantic_scholar_id:278664723
 abstract: >-
   This paper introduces TabComp, a dataset for visual table reading comprehension. The dataset is designed to advance research in understanding and extracting information from tables in documents.
 cover:          /assets/images/covers/Tabcomp.png
