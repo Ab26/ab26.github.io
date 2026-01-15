@@ -38,36 +38,4 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
-
-    const citationNodes = document.querySelectorAll('[data-semantic-scholar-id]');
-    if (citationNodes.length) {
-        const ids = Array.from(new Set(Array.from(citationNodes).map((node) => node.dataset.semanticScholarId)));
-        const updateNodes = (id, value) => {
-            citationNodes.forEach((node) => {
-                if (node.dataset.semanticScholarId === id) {
-                    node.textContent = value;
-                }
-            });
-        };
-
-        ids.forEach((id) => {
-            fetch(`https://api.semanticscholar.org/paper/CorpusID:${id}?fields=citationCount`)
-                .then((response) => {
-                    if (!response.ok) {
-                        throw new Error(`Semantic Scholar request failed: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then((data) => {
-                    if (typeof data.citationCount === 'number') {
-                        updateNodes(id, data.citationCount.toString());
-                    } else {
-                        updateNodes(id, 'N/A');
-                    }
-                })
-                .catch(() => {
-                    updateNodes(id, 'N/A');
-                });
-        });
-    }
 })
