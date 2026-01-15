@@ -14,4 +14,5 @@ authors:
 links:
   Paper: https://aclanthology.org/2025.findings-naacl.320.pdf
   Dataset: https://drive.google.com/drive/folders/12HIC98MdG9AGx7LQYnpYHl8iuEngNe7s?usp=sharing
+  code: https://github.com/dialabiitj/TabComp/
 ---
