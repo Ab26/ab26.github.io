@@ -1,6 +1,7 @@
 ---
 title:          "A Framework and Dataset for Contextual Post-OCR Correction"
 date:           2025-11-22 00:01:00 +0530
+selected:       true
 pub_pre:        "Accepted in "
 pub:            "ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)"
 abstract: >-
