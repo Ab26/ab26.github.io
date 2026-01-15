@@ -27,6 +27,7 @@
                 <span>[Citations: <span class="citation-count" data-semantic-scholar-id="{{ item.semantic_scholar_id }}">--</span>]</span>
                 {% endif %}
             </p>
+            {% endif %}
 
         </div>
     </div>
@@ -55,6 +56,11 @@
                     <span>[Citations: <span class="citation-count" data-semantic-scholar-id="{{ item.semantic_scholar_id }}">--</span>]</span>
                     {% endif %}
                 </p>
+                {% if item.semantic_scholar_id %}
+                <p class="mt-0 mb-0 small text-muted">
+                    Citations: <span class="citation-count" data-semantic-scholar-id="{{ item.semantic_scholar_id }}">--</span>
+                </p>
+                {% endif %}
             </div>
         </div>
     </div>
