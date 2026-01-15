@@ -51,7 +51,7 @@ $(function () {
         };
 
         ids.forEach((id) => {
-            fetch(`https://api.semanticscholar.org/graph/v1/paper/CorpusID:${id}?fields=citationCount`)
+            fetch(`https://api.semanticscholar.org/paper/CorpusID:${id}?fields=citationCount`)
                 .then((response) => {
                     if (!response.ok) {
                         throw new Error(`Semantic Scholar request failed: ${response.status}`);
