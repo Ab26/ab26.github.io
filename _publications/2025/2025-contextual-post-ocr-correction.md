@@ -6,7 +6,7 @@ pub_pre:        "Accepted in "
 pub:            "ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)"
 abstract: >-
   This paper presents a framework and dataset for contextual post-OCR correction to improve text quality in low-resource and noisy OCR settings.
-Cover: /assets/images/covers/Contextual.png
+cover: /assets/images/covers/Contextual.png
 authors:
   - <strong>A Bhandari</strong> and Gaurav Harit
 links:
