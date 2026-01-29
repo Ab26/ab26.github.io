@@ -8,7 +8,7 @@ abstract: >-
   This paper presents a framework and dataset for contextual post-OCR correction to improve text quality in low-resource and noisy OCR settings.
 cover: /assets/images/covers/Contextual.png
 authors:
-  - <strong>A Bhandari</strong> and Gaurav Harit
+  - <strong>Abhishek Bhandari</strong> and Gaurav Harit
 links:
       Dataset: https://huggingface.co/datasets/AbhishekBhandari/Indic-post-ocr-correction
 ---

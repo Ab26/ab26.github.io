@@ -8,10 +8,10 @@
       This paper introduces MMCRICBENCH-3K, a benchmark for Visual Question Answering on cricket scorecards designed to evaluate large vision-language models on complex numerical and cross-lingual reasoning over semi-structured tabular images. Empirical results show that state-of-the-art models struggle with structure-aware numerical reasoning and cross-lingual generalization.
     cover:          /assets/images/covers/MMCricbench.png
     authors:
-      - S Gautam
+      - Somraj Gautam 
       - AS Penamakuri
-      - <strong>A Bhandari</strong>
-      - G Harit
+      - <strong>Abhishek Bhandari</strong>
+      - Gaurav Harit 
     links:
       Paper: https://aclanthology.org/2025.mrl-main.38.pdf
       Dataset: https://huggingface.co/datasets/DIALab/MMCricBench
