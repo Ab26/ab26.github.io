@@ -2,10 +2,10 @@ primary_name: "Abhishek Bhandari"
 secondary_name: ""
 navbar_name: "Abhishek Bhandari"
 
-tagline: "Context-aware text correction and document understanding"
+tagline: ""
 
 positions:
-- name: Ph.D. Researcher in Computer Science & Engineering · IIT Jodhpur
+- name: Ph.D. Student in Computer Science & Engineering · IIT Jodhpur
 
 email: "bhandari.1@iitj.ac.in"
 cv_link: https://drive.google.com/file/d/1T6LHZASCZ6PVfWw1t0DQVdZBmK8jUNZl/view?usp=sharing
@@ -26,9 +26,8 @@ featured_links:
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I develop <strong>context-aware methods for correcting OCR and ASR errors in Indic languages</strong>.
-    My work also explores visual table understanding and cross-lingual reasoning in vision-language models,
-    connecting natural language processing and computer vision in low-resource settings.
+    I am working on correcting OCR and ASR errors in Indic languages.
+    My work also explores multimodal document understanding and cross-lingual reasoning in vision-language models.
   </p>
   <p>
     I submitted my doctoral thesis, <em>Context-Assisted Post-Text-Recognition Error Correction for Indic Languages</em>,
