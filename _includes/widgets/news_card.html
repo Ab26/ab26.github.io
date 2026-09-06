@@ -19,7 +19,15 @@
                         </span>
                         <time class="news-date ml-auto" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d" }}</time>
                     </div>
-                    <div class="news-text">{{ item.title }}</div>
+                    <div class="news-text">
+                        {% if item.link %}
+                        <a class="news-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+                            {{ item.title }} <i class="fas fa-arrow-up-right-from-square news-link-icon" aria-hidden="true"></i>
+                        </a>
+                        {% else %}
+                        {{ item.title }}
+                        {% endif %}
+                    </div>
                 </article>
                 {% endfor %}
             </div>

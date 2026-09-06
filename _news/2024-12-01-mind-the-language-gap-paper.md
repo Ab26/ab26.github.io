@@ -1,5 +1,6 @@
 ---
-title: "Our paper titled <strong>Mind the (Language) Gap: Towards Probing Numerical and Cross-Lingual Limits of LVLMs</strong> is published in <strong>Proceedings of the 5th Workshop on Multilingual Representation Learning (MRL 2025)</strong>"
+title: "<strong>Mind the (Language) Gap</strong> published at <strong>MRL 2025</strong>."
 date: 2025-11-09 00:00:00 +0530
 category: publication
+link: https://aclanthology.org/2025.mrl-main.38/
 ---
