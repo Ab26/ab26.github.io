@@ -6,8 +6,8 @@ pub:            "ACM Transactions on Asian and Low-Resource Language Information
 abstract: >-
   A character-level correction model combines transcripts from Whisper and MMS through gated fusion,
   using complementary recognition cues to correct errors in low-resource Rajasthani speech transcription.
-cover:          /assets/images/covers/rajasthani-post-asr.svg
-cover_alt:      "Whisper and MMS transcripts feed a gated correction model that produces corrected Rajasthani text."
+cover:          /assets/images/covers/rajasthani-post-asr-figure-1.png
+cover_alt:      "Figure 1 from the paper: the proposed multi-view architecture with character-wise gated fusion."
 authors:
   - <strong>Abhishek Bhandari</strong>
   - Gaurav Harit

@@ -31,7 +31,7 @@ short_bio: >-
     connecting natural language processing and computer vision in low-resource settings.
   </p>
   <p>
-    I submitted my doctoral thesis, <em>Context-Aware Post-Recognition Error Correction for Indic Languages</em>,
+    I submitted my doctoral thesis, <em>Context-Assisted Post-Text-Recognition Error Correction for Indic Languages</em>,
     at IIT Jodhpur in <strong>July 2026</strong>.
   </p>
 
@@ -51,7 +51,7 @@ education:
   logo: /assets/images/badges/IIT_logo.png
   position: >-
     Computer Science & Engineering <br/>
-    Ph.D. — thesis submitted July 2026
+    Ph.D. (thesis submitted July 2026)
   date: Since 2020
 - name: University of Hyderabad
   logo: /assets/images/badges/UoH_logo.png
