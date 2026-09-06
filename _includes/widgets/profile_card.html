@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-5">
+            <div class="card-body p-4 p-md-5">
                 <div class="row">
                     <div class="col">
                         {% if site.data.profile.portrait_url %}
@@ -10,6 +10,7 @@
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
+                                alt="Portrait of {{ site.data.profile.primary_name | escape }}"
                                 style="height: 200px;"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
@@ -17,11 +18,11 @@
                         </div>
                         {% endif %}
 
-                        <div class="d-flex">
+                        <div class="d-flex align-items-start">
                             <div>
-                                <div class="h1 font-weight-normal mb-1">
-                                    {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
-                                </div>
+                                <h1 class="profile-name font-weight-normal mb-1">
+                                    {{ site.data.profile.primary_name }}{% if site.data.profile.secondary_name != empty %} <small>{{ site.data.profile.secondary_name }}</small>{% endif %}
+                                </h1>
                                 {% if site.data.profile.tagline %}
                                 <div class="profile-tagline text-muted">
                                     {{ site.data.profile.tagline }}
@@ -29,9 +30,9 @@
                                 {% endif %}
                             </div>
                             {% if site.data.profile.portrait_url %}
-                            <div class="ml-auto d-md-none">
+                            <div class="ml-auto pl-3 flex-shrink-0 d-md-none">
                                 <a target="_blank" href="{{ site.data.profile.portrait_url | relative_url }}">
-                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 48px;" alt="Portrait">
+                                    <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="height: 56px; width: 56px; object-fit: cover;" alt="Portrait of {{ site.data.profile.primary_name | escape }}">
                                 </a>
                             </div>
                             {% endif %}
@@ -73,7 +74,7 @@
                             {% endif %}
                             {% if site.data.profile.featured_links %}
                                 {% for link in site.data.profile.featured_links %}
-                                <a class="btn btn-outline-secondary btn-sm mr-2 mb-2" target="_blank" href="{{ link.url }}">
+                                <a class="btn btn-outline-secondary btn-sm mr-2 mb-2" href="{{ link.url | relative_url }}">
                                     {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %} {{ link.label }}
                                 </a>
                                 {% endfor %}

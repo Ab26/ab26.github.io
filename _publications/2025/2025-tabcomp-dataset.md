@@ -5,7 +5,8 @@ selected:       true
 pub:            "Findings of the Association for Computational Linguistics: NAACL 2025"
 
 abstract: >-
-  This paper introduces TabComp, a dataset for visual table reading comprehension. The dataset is designed to advance research in understanding and extracting information from tables in documents.
+  TabComp pairs table images with questions and generative answers to evaluate OCR-free reading comprehension.
+  It reveals limitations in how current models interpret complex visual tables.
 cover:          /assets/images/covers/Tabcomp.png
 authors:
   - Somraj Gautam
@@ -14,5 +15,5 @@ authors:
 links:
   Paper: https://aclanthology.org/2025.findings-naacl.320.pdf
   Dataset: https://drive.google.com/drive/folders/12HIC98MdG9AGx7LQYnpYHl8iuEngNe7s?usp=sharing
-  code: https://github.com/dialabiitj/TabComp/
+  Code: https://github.com/dialabiitj/TabComp/
 ---

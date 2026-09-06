@@ -1,11 +1,11 @@
 primary_name: "Abhishek Bhandari"
-secondary_name: "Ph.D. Researcher"
+secondary_name: ""
 navbar_name: "Abhishek Bhandari"
 
-tagline: "Working on post-recognition error correction for Indic Languages"
+tagline: "Context-aware text correction and document understanding"
 
 positions:
-- name: PhD Researcher in Computer Science & Engineering
+- name: Ph.D. Researcher in Computer Science & Engineering · IIT Jodhpur
 
 email: "bhandari.1@iitj.ac.in"
 cv_link: https://drive.google.com/file/d/1T6LHZASCZ6PVfWw1t0DQVdZBmK8jUNZl/view?usp=sharing
@@ -20,23 +20,27 @@ linkedin: abhishekbhandari31
 
 featured_links:
 - label: Selected Publications
-  url: /publications
+  url: /#selected-publications
   icon: fas fa-book-open
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently pursuing a PhD in Computer Science & Engineering at Indian Institute of Technology Jodhpur. My research focuses on <strong>Natural Language Processing</strong> and <strong>Computer Vision</strong>.
+    I develop <strong>context-aware methods for correcting OCR and ASR errors in Indic languages</strong>.
+    My work also explores visual table understanding and cross-lingual reasoning in vision-language models,
+    connecting natural language processing and computer vision in low-resource settings.
   </p>
   <p>
-    I design methods for contextual text error correction in Indic languages, multi-modal knowledge extraction, and low-resource learning.
+    I submitted my doctoral thesis, <em>Context-Aware Post-Recognition Error Correction for Indic Languages</em>,
+    at IIT Jodhpur in <strong>July 2026</strong>.
   </p>
 
 highlights:
   
 research_interests:
-  - Contextual Text Correction
-  - Indic Language Processing
+  - OCR & ASR Correction
+  - Low-Resource Indic Languages
+  - Vision-Language Models
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
@@ -47,8 +51,8 @@ education:
   logo: /assets/images/badges/IIT_logo.png
   position: >-
     Computer Science & Engineering <br/>
-    Ph.D. Student
-  date: 2020 - 2026 (expected)
+    Ph.D. — thesis submitted July 2026
+  date: Since 2020
 - name: University of Hyderabad
   logo: /assets/images/badges/UoH_logo.png
   position: M.Tech. in Information Technology
