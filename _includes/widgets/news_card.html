@@ -1,21 +1,29 @@
 {% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
 
-<div class="my-3 bg-white shadow-sm rounded-xl">
-    <h2 class="h6 p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h2>
-    <div class="px-3 pb-1">
+<section class="news-card my-3 bg-white shadow-sm rounded-xl" aria-labelledby="news-title">
+    <h2 id="news-title" class="news-header h6 p-3 mb-0"><i class="fas fa-sparkles mr-1" aria-hidden="true"></i> News</h2>
+    <div class="p-3">
         {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
-            {% assign not_first = true %}
-            <div class="mr-3 text-muted my-1">{{ year.name }}</div>
+        <div class="media {% unless forloop.first %}mt-3{% endunless %}">
+            <div class="news-year mr-3">{{ year.name }}</div>
             <div class="media-body">
                 {% for item in year.items %}
-                <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
-                    <div class="ml-auto mt-auto pl-2 text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
-                </div>
+                {% assign category = item.category | default: "update" %}
+                <article class="news-item news-{{ category }} {% unless forloop.first %}mt-2{% endunless %}">
+                    <div class="d-flex flex-wrap align-items-center mb-1">
+                        <span class="news-category">
+                            {% if category == "publication" %}<i class="fas fa-book-open" aria-hidden="true"></i> Publication
+                            {% elsif category == "award" %}<i class="fas fa-award" aria-hidden="true"></i> Award
+                            {% elsif category == "talk" %}<i class="fas fa-microphone" aria-hidden="true"></i> Talk
+                            {% else %}<i class="fas fa-circle-info" aria-hidden="true"></i> Update{% endif %}
+                        </span>
+                        <time class="news-date ml-auto" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %d" }}</time>
+                    </div>
+                    <div class="news-text">{{ item.title }}</div>
+                </article>
                 {% endfor %}
             </div>
         </div>
         {% endfor %}
     </div>
-</div>
+</section>
